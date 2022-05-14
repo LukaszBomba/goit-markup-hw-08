@@ -1,0 +1,40 @@
+.clients {
+    justify-content: center;
+    display: flex;
+}
+
+.client__list {
+    display:flex;
+    justify-content: center;
+    border: 1px solid var(--border-clients);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    list-style-type: none;
+    &:hover,
+    &:focus {border: 1px solid var(--main-color);}
+    &:not(:last-child){margin-right: 30px;}
+}
+
+.client__link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    fill:var(--icon-color);
+    align-items: center;
+    justify-content: center;
+    &:hover,
+    &:focus {
+        fill: var(--main-color);
+    }
+}
+
+.client__logo {
+    display: flex;
+    align-items: center;
+    &:hover,
+    &:focus {
+        fill: var(--main-color);
+    }
+}
