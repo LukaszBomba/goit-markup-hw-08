@@ -23,6 +23,29 @@
     &:hover,
     &:focus{
         color: var(--main-color);
+    }  
+}
+
+@media screen and (min-width:480px){
+    .heading__icon,
+    .heading__item,
+    .heading__contact {
+        display: none;
     }
-    
+}
+
+@media screen and (min-width:768px) {
+    .heading__icon,
+    .heading__item,
+    .heading__contact {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .heading__icon,
+    .heading__item,
+    .heading__contact {
+        display:0;
+    }
 }
