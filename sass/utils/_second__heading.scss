@@ -1,8 +1,21 @@
 .second__heading {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.166;
+line-height: 1.172;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--black-color);
+    font-family: var(--main-font);
+    text-align: center;
+    padding: 30px 15px;
+    padding-top: 60px;
 }
+
+// .second__heading {
+// font-weight: 700;
+// font-size: 36px;
+// line-height: 1.172;
+// text-align: center;
+// letter-spacing: 0.03em;
+// color:var(--black-color);
+// }

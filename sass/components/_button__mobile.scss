@@ -1,6 +1,12 @@
 
-.mobile__menu {
-  margin-left: 276px;
+.mobile__btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
   background-color: transparent;
   border-style: none;
+  &:focus {
+      fill:var(--main-color);
+  }
 }
+

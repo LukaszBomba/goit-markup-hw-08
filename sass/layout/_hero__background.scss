@@ -1,11 +1,27 @@
 .main {
-    padding: 200px 0 200px 0;
+    padding: 118px 0;
     flex-direction:column;
     display: flex;
     align-items: center;
-    height: 600px;
-    background-image:url(../Images/Img-background.jpg);
+    background-image:linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url("/Images/Hero/Header\ img.jpg");
     background-repeat: no-repeat;
-    background-size: 1600px;
+    background-size: cover;
     background-position: center;
+    height: 400px;
 }
+
+
+
+
+
+// .main {
+//     padding: 200px 0 200px 0;
+//     flex-direction:column;
+//     display: flex;
+//     align-items: center;
+//     height: 600px;
+//     background-image:url(../Images/Img-background.jpg);
+//     background-repeat: no-repeat;
+//     background-size: 1600px;
+//     background-position: center;
+// }

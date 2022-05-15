@@ -1,42 +1,88 @@
 .description {
-    padding-top: 90px;
-    justify-content: space-evenly;
-    flex-basis: calc(100% / 4 -30px);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 15px auto;
 }
 
 .description__list {
-    padding-right: 30px;
-    list-style-type: none;
-    width: 270px;
+    margin-bottom: 30px;
+    list-style: none;
 }
 
 .description__icon {
-    width: 270px;
-    height: 120px;
-    background-color: var(--background-team);
-    border-radius: 4px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    height: 120px;
     margin-bottom: 30px;
-    background: var(--crew-background);
+    background-color: var(--crew-background);
+    border-radius: 4px;
 }
 
-.description__name{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--black-color);
-margin-bottom: 10px;
+.description__name {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.description__text{
-display: block;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: var(--address-color);
+
+.description__text {
+    color: var(--address-color);
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
+
+
+
+// .description {
+//     padding-top: 90px;
+//     justify-content: space-evenly;
+//     flex-basis: calc(100% / 4 -30px);
+//     display: flex;
+// }
+
+// .description__list {
+//     padding-right: 30px;
+//     list-style-type: none;
+//     width: 270px;
+// }
+
+// .description__icon {
+//     width: 270px;
+//     height: 120px;
+//     background-color: var(--background-team);
+//     border-radius: 4px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-bottom: 30px;
+//     background: var(--crew-background);
+// }
+
+// .description__name{
+// font-weight: 700;
+// font-size: 14px;
+// line-height: 1.142;
+// letter-spacing: 0.03em;
+// text-transform: uppercase;
+// color:var(--black-color);
+// margin-bottom: 10px;
+// }
+// .description__text{
+// display: block;
+// font-weight: 400;
+// font-size: 14px;
+// line-height: 1.714;
+// letter-spacing: 0.03em;
+// color: var(--address-color);
+// }
