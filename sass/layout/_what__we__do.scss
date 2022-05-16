@@ -1,8 +1,7 @@
+
+@media screen and (min-width:768px){
 .what__we__do {
      text-align: center;
-}
-.second__heading {
-    margin-bottom: 50px;
 }
 
 
@@ -34,3 +33,41 @@
     bottom: 4px;
     padding: 27px;
 }
+}
+
+// .what__we__do {
+//      text-align: center;
+// }
+// .second__heading {
+//     margin-bottom: 50px;
+// }
+
+
+// .company__services{
+//     display: flex;
+//     justify-content: space-evenly;
+// }
+
+// .company__services--list {
+//     position: relative;
+//     overflow: hidden;
+//     list-style-type: none;
+    
+// }
+
+// .company__services--img {
+//     width: 370px;
+//     height: 294px;
+    
+// }
+
+// .company__services--layer {
+//     position: absolute;
+//     width: 370px;
+//     height: 70px;
+//     text-align: center;
+//     color: var(--white-color);
+//     background: rgba(47, 48, 58, 0.8);
+//     bottom: 4px;
+//     padding: 27px;
+// }

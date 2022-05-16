@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:480px){
+@media screen and (max-width:767px){
     .heading__icon,
     .heading__item,
     .heading__contact {
@@ -9,11 +9,32 @@
 }
 
 @media screen and (min-width:768px) {
-    .heading__icon,
-    .heading__item,
-    .heading__contact {
-        display: none;
+    .heading__icon {
+    margin-right: 10px;
+    &:focus {fill: var(--main-color);}
+}
+
+    .heading__item {
+    display: flex;
+    position: absolute;
+    fill:var(--address-color);
+    top: 21px;
+    right: 15px;
+    &:focus {fill: var(--main-color);}
+    &:last-child {
+        top: 45px;
+        right: 48px;
     }
+}
+
+    .heading__contact {
+    color:var(--address-color);
+    display: inline;
+    align-items: center;
+    &:focus{
+        color: var(--main-color);
+    }  
+}
 }
 
 @media screen and (min-width:1200px) {

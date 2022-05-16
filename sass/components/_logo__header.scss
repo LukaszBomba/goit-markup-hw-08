@@ -1,5 +1,8 @@
+
+@media screen and (max-width:767px){
+
 .logo{
-font-family: var(--secondary-font);
+font-family:var(--secondary-font);
 font-weight: 700;
 line-height: 1.192;
 letter-spacing: 0.03em;
@@ -7,7 +10,6 @@ text-decoration: none;
 color: var(--main-color);
 }
 
-/* ============ LOGO COLOR IN HEADER =========== */
 
 .logo__span {
     color: var(--black-color);
@@ -20,6 +22,33 @@ color: var(--main-color);
     margin-left: 15px;
     font-size: 26px;
 }
+}
+
+@media screen and (min-width:768px){
+.heading__logo {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 15px;
+    font-size: 26px;
+}
+}
+
+.logo{
+font-family:var(--secondary-font);
+font-weight: 700;
+line-height: 1.192;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: var(--main-color);
+}
+
+
+.logo__span {
+    color: var(--black-color);
+}
+
+
 // @media screen and (min-width:480px){
 //     .logo {
 //         margin-left: 15px;

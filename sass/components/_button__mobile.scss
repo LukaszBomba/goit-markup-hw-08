@@ -1,5 +1,5 @@
-
-.mobile__btn {
+@media screen and (max-width:767px) {
+  .mobile__btn {
   position: absolute;
   top: 10px;
   right: 15px;
@@ -9,4 +9,10 @@
       fill:var(--main-color);
   }
 }
+}
 
+@media screen and (min-width:768px) {
+  .mobile__btn {
+  display: none;
+}
+}

@@ -1,3 +1,5 @@
+
+@media screen and (max-width:767px){
 .main {
     padding: 118px 0;
     flex-direction:column;
@@ -9,8 +11,22 @@
     background-position: center;
     height: 400px;
 }
+}
 
-
+@media screen and (min-width:768px){
+.main {
+    padding: 118px 0;
+    flex-direction:column;
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(rgba(47,48,58,0.4),
+     rgba(47,48,58,0.4)), url("/Images/Img-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    
+}
 
 
 
