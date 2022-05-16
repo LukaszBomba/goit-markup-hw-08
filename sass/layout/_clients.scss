@@ -44,24 +44,23 @@
 // }
 
 .clients {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 45px;
 }
 
 .client__list {
     display:flex;
-    justify-content: center;
+    position: relative;
     border: 1px solid var(--border-clients);
-    box-sizing: border-box;
     border-radius: 4px;
     height: 92px;
     list-style-type: none;
     flex-wrap: wrap;
-    max-width: 210px;
     align-content: space-between;
     border-radius: 4px;
-    margin: 15px;
+    margin-bottom: 15px;
     &:hover,
     &:focus {border: 1px solid var(--main-color);}
  

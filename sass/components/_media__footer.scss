@@ -70,15 +70,15 @@
     }
 }
 
-.list__footer--link{
-    display: inline-flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    fill:var(--white-color);
-    background-color: var(--media-bgr-footer);
-    &:hover,
-    &:focus {background-color:var(--main-color);}
-}
+ .list__footer--link{
+     display: inline-flex;
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+     align-items: center;
+     justify-content: center;
+     fill:var(--white-color);
+     background-color: var(--media-bgr-footer);
+     &:hover,
+     &:focus {background-color:var(--main-color);}
+ }

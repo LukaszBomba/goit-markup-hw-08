@@ -14,14 +14,62 @@
 <body>
      <header class="heading">
       <div class="container">
+          <div class="heading__logo">
         <a class="logo" href="./index.html">Web<span class="logo__span">Studio</span></a>
+        </div>
+        <!--MOBILE MENU -->
+        
+        <button class="mobile__btn" type="button" data-menu-open>
+           <svg class="mobile__btn--icon" width="40px" height="40px">
+           <use href="./Images/mobile-menu.svg#hamburger-menu"></use>
+       </svg>
+       </button>
+       <div class="mobile is-hidden" data-menu>
+           <button class="mobile__close" type="button" data-menu-close>
+               <svg class="mobile__close--icon" width="40px" height="40px">
+                   <use href="./Images/mobile_close-btn.svg#mobile-close-btn"></use>
+               </svg>
+           </button>
+        <ul class="mobile__nav">
+            <li class="mobile__nav--list">
+                <a class="mobile__nav--link link" href="index.html">Agencja</a>
+            </li>
+            <li class="mobile__nav--list">
+                <a class="mobile__nav--link link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile__nav--list">
+                <a class="mobile__nav--link link" href="#">Kontakt</a>
+            </li>
+        </ul>
+        <ul class="mobile__contact">
+                <a class="mobile__contact--link" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="mobile__contact--link" href="info@devstudio.com">info@devstudio.com</a>
+        </ul>
+        <ul class="mobile__media">
+            <li class="mobile__media--list">
+                <a class="mobile__media--link" href="">Instagram</a>
+            </li>
+            <li class="mobile__media--list">
+                <a class="mobile__media--link" href="">Twitter</a>
+            </li>
+            <li class="mobile__media--list">
+                <a class="mobile__media--link" href="">Facebook</a>
+            </li>
+            <li class="mobile__media--list">
+                <a class="mobile__media--link" href="">LinkedIn</a>
+            </li>
+        </ul>
+       </div>
+       
+       <!--MOBILE MENU END -->
+        
        <nav class="nav">
            <ul class="nav__list decoration">
                <li class="nav__item">
-                   <a class="nav__link link hover-transition" href="index.html">Agencja</a>
+                   <a class="nav__link link active hover-transition" href="index.html">Agencja</a>
                 </li>
                <li class="nav__item">
-                   <a class="nav__link active link hover-transition" href="portfolio.html">Portfolio</a>
+                   <a class="nav__link link hover-transition" href="portfolio.html">Portfolio</a>
                 </li>
                <li class="nav__item">
                    <a class="nav__link link hover-transition" href="#">Kontakt</a>
@@ -172,17 +220,17 @@
     <address>
         <ul class="contact__list">
             <li class="contact__link">
-                <a class="contact__item contact__link--contact__item hover-transition" href="https://goo.gl/maps/KTg1pb1Rxh6M7XKi7" target="blank"> Warszawa, Aleje Jerozolimskie 21</a></li>
+                <a class="contact__item-w link contact__link--contact__item hover-transition" href="https://goo.gl/maps/KTg1pb1Rxh6M7XKi7" target="blank"> Warszawa, Aleje Jerozolimskie 21</a></li>
             <li class="contact__link">
-                <a class="contact__item hover-transition" href="mailto:info@example.com">info@example.com</a></li>
+                <a class="contact__item link hover-transition" href="mailto:info@example.com">info@example.com</a></li>
             <li class="contact__link">
-                <a class="contact__item hover-transition" href="tel:+48111111111">+48 111 111 111</a></li>
+                <a class="contact__item link hover-transition" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
     </address>
     </section>
     <div class="media__footer">
     <h3 class="media__footer--heading">Dołącz do nas</h3>
-    <ul>
+    <ul class="list">
         <li class="list__footer">
             <a href="" class="list__footer--link hover-transition">
                 <svg class="list__footer--icon" width="20px" height="20px">
@@ -228,5 +276,6 @@
     </div>
     </div>
 </footer>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
