@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width:1199px) {
     .heading__icon {
     margin-right: 10px;
     &:focus {fill: var(--main-color);}
@@ -45,13 +45,13 @@
 }
 
 .heading__item {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     fill:var(--address-color);
     &:hover,
     &:focus {fill: var(--main-color);}
-    &:not(:last-child) {margin-left: 345px;}
+    &:not(:last-child) {margin-left: 313px;}
     &:last-child {margin-left: 30px;}
 }
 

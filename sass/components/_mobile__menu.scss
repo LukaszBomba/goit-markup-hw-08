@@ -8,12 +8,13 @@
     padding: 40px;
     background-color: white;
     transition: var(--transition-cubic-bezier-backdrop-750ms);
+    z-index: 2;
 }
 
 .mobile__nav {
     font-size: 40px;
     margin-top: 8px;
-    margin-bottom: 175px;
+    margin-bottom: 100px;
     list-style-type: none;
     
 }

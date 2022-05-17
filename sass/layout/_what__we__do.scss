@@ -1,20 +1,23 @@
 
-@media screen and (min-width:768px){
+@media screen and (min-width:1200px){
 .what__we__do {
+    margin: 0 auto;
      text-align: center;
 }
 
 
 .company__services{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
 }
 
 .company__services--list {
     position: relative;
     overflow: hidden;
     list-style-type: none;
-    
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
 .company__services--img {

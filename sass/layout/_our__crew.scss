@@ -152,10 +152,11 @@ color: var(--description-color);
 }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:1199px) {
    .gallery {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 15px;
 }
 
 .section__gallery {
@@ -179,6 +180,87 @@ color: var(--description-color);
     &:nth-child(3),
     &:nth-child(4){
         margin-bottom: 60px;
+    }
+}
+.gallery__photo {
+width: 354px;
+height: auto;
+}
+.gallery__member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 30px;
+color:var(--black-color);
+}
+.gallery__member--stand {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+padding: 10px 0 16px;
+color: var(--description-color);
+}
+.gallery__media {
+    display: flex;
+    align-items: center;
+    width: 206px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+.gallery__media--list {
+    display: flex;
+    list-style-type: none;
+    &:not(:last-child){
+    margin-right: 10px;
+    }
+}
+.gallery__media--link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill:var(--icon-color);
+    background-color: var(--white-color);
+    &:hover,
+    &:focus {
+        fill:var(--white-color);
+    background-color:var(--main-color)
+    }
+}
+.gallery__media--icon:hover {
+    fill: var(--white-color);
+} 
+}
+
+@media screen and (min-width:1200px) {
+       .gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.section__gallery {
+    background-color:var(--crew-background);
+}
+
+.gallery__list {
+    display: block;
+    background-color: var(--white-color);
+    list-style-type:none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 354px;
+    height: auto;
+    margin-bottom: 94px;
+    &:not(:last-child){
+        margin-right: 30px;
     }
 }
 .gallery__photo {
