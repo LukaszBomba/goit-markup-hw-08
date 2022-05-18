@@ -19,8 +19,7 @@
     flex-direction:column;
     display: flex;
     align-items: center;
-    background-image:linear-gradient(rgba(47,48,58,0.4),
-     rgba(47,48,58,0.4)), url("../Images/Hero/Header\ img@1x.jpg"), url("../Images/Hero/Header\ img@2x.jpg");
+    background-image: url("../Images/Hero/Header\ img@1x.jpg"), url("../Images/Hero/Header\ img@2x.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
