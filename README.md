@@ -1,2 +1,2 @@
-# goit-markup-hw-07
-Zadanie Domowe #7 html + CSS + JS
+# goit-markup-hw-08
+Zadanie Domowe #8 html + SCSS + JS
