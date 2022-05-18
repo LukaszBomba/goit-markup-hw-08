@@ -42,8 +42,7 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width:1200px) {
-    .container-hero{
+.container-hero{
     max-width: 1600px;
     display: flex;
     margin: 0 auto;
@@ -56,4 +55,3 @@
     justify-content: center;  
 }
 
-}

@@ -318,9 +318,6 @@ body {
     background-position: center;
     margin: 0 auto;
   }
-}
-
-@media screen and (min-width: 1200px) and (min-width: 1200px) {
   .container-hero {
     max-width: 1600px;
     display: flex;
@@ -329,12 +326,10 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .container__non--flex {
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
-  }
+.container__non--flex {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
